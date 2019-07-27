@@ -2,32 +2,40 @@
 <html>
 
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Level 2: Page Demo</title>
+    <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="works_on_smartphone">
 
     <header>
+      <a href="https://www.holbertonschool.com" target="_blank" class="logo">
+        <img
+          src="holberton_logo_symbol.png"
+          alt="Holberton"
+        />
+      </a>
       <ul>
-        <li>
+        <li class="active-menu">
           <a href="/#">
-            Hello. <br/>
-            <span>Cheatsheets</span>
+            <h3>Hello.</h3>
+            Cheatsheets
           </a>
         </li>
         <li>
           <a href="/tweets.html#">
-            Tweets. <br/>
-            <span>Iframe</span>
+            <h3>Tweets.</h3>
+            Embeded
           </a>
         </li>
       </ul>
     </header>
 
     <main>
-      <article>
-        <div>
+        <article class="code">
           <h3>Linux</h3>
           <ul>
             <li>man command ::Manual</li>
@@ -42,8 +50,6 @@
             <li>mkdir dir1 ::MakeDir</li>
             <li>rmdir dir2 ::RemoveDir</li>
           </ul>
-        </div>
-        <div>
           <h3>HTML5</h3>
           <ul>
             <li>&lt;h1&gt; - &lt;h6&gt;	::Heading</li>
@@ -57,8 +63,6 @@
             <li>&lt;img&gt;	::Image</li>
             <li>&lt;div&gt;	::Division</li>
           </ul>
-        </div>
-        <div>
           <h3>Emacs</h3>
           <ul>
             <li>C-x C-s ::save a file back to disk</li>
@@ -70,31 +74,21 @@
             <li>M-g g ::goto line</li>
             <li>C-k ::Line killing</li>
           </ul>
-        </div>
-      </article>
-      <aside>
-        <p>"placeholder to add comment thread later".</p>
-      </aside>
-    </main>
+        </article>
+        <aside>
+          <p>"placeholder to add comment thread later".</p>
+        </aside>
+      </main>
 
     <footer>
-
       Made by
-      <a href="https://twitter.com/isazajacobo" target="_blank">Jacobo Isaza</a>
-      <br/>
-
-      for
-      <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
-      <br/>
-
-      <a href="https://www.holbertonschool.com" target="_blank">
-        <img
-          src="holberton_logo_symbol.png"
-          alt="Holberton"
-          width="30px"
-        />
+      <a href="https://twitter.com/isazajacobo" target="_blank">
+        Jacobo Isaza
       </a>
-
+      for
+      <a href="https://www.holbertonschool.com" target="_blank">
+        Holberton School
+      </a>
     </footer>
 
   </body>
