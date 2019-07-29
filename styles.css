@@ -75,3 +75,14 @@ header .logo img {
 .active-menu h3{
     color: #ef4d3f;
 }
+
+/* ALIGN */
+.v-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-center {
+    display: flex;
+    flex: 1 1 auto;
+}
