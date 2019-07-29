@@ -86,3 +86,16 @@ header .logo img {
     display: flex;
     flex: 1 1 auto;
 }
+
+/* SHARE Buttons */
+.twitter-share-button {
+    padding-top: 10px;
+}
+.fb-share-button {
+    padding-top: 10px;
+}
+
+/* HELPERS */
+.not-border {
+    border: none;
+}
