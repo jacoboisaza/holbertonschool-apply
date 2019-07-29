@@ -57,6 +57,14 @@ header li a {
 header h3 {
     margin-top: 0px;
 }
+@media (max-width: 800px) {
+    header a, header h3 {
+        font-size: 1rem;
+    }
+    header>a {
+        display: none;
+    }
+}
 header .logo {
     border: 1px solid #ef4d3f;
     padding: 5px;
