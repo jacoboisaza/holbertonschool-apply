@@ -59,14 +59,6 @@ header li a {
 header h3 {
     margin-top: 0px;
 }
-@media (max-width: 800px) {
-    header a, header h3 {
-        font-size: 1rem;
-    }
-    header>a {
-        display: none;
-    }
-}
 header .logo {
     border: 1px solid #000000;
     padding: 5px;
@@ -117,6 +109,35 @@ main .title {
 }
 .fb-share-button {
     padding-top: 10px;
+}
+
+/* RESPONSIVE THEME */
+@media (max-width: 800px) {
+    header a, header h3 {
+        font-size: 0.8rem;
+    }
+    header {
+        height: 25px;
+    }
+    header span {
+        display: none;
+    }
+    header .logo {
+        margin-right: 15px;
+    }
+    header .logo img {
+        width: 15px;
+    }
+    .twitter-share-button {
+        padding-top: 0;
+        margin-top: -5px;
+    }
+    .fb-share-button {
+        top: -10px;
+    }
+    h1, h2, h3 {
+        font-size: 1rem;
+    }
 }
 
 /* HELPERS */
