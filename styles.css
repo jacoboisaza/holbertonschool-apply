@@ -1,6 +1,14 @@
 /* OVERRIDE HS STYLES */
 header {
-	border-bottom-style: none;
+    border-bottom-style: none;
+    padding: 20px;
+    height: 55px;
+}
+li {
+    line-height: 1rem;
+}
+article > *:first-child {
+    margin-top: 50px;
 }
 
 /* GRID */
@@ -13,8 +21,8 @@ main {
     display: flex;
     flex: auto;
     flex-direction: row;
-    margin: 0 20px;
-    min-width: 400px;
+    padding: 20px;
+    min-width: 350px;
     overflow-y: auto;
 }
 article, aside {
@@ -36,8 +44,6 @@ header {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    margin: 0 20px;
-    height: 70px;
 }
 header ul {
     justify-content: flex-end;
@@ -62,10 +68,9 @@ header h3 {
 header .logo {
     border: 1px solid #000000;
     padding: 5px;
-    max-height: 60px;
 }
 header .logo img {
-    width: 60px;
+    width: 45px;
 }
 .image article {
     flex-direction: column;
@@ -75,21 +80,34 @@ header .logo img {
 }
 
 /* THEME */
-.code {
-    font-family: monospace;
-}
 .active-menu {
     border-color: #ef4d3f !important;
 }
-.active-menu h3,
-main h1 {
+.active-menu h3 {
     color: #ef4d3f;
 }
-main .title {
-    margin-top: 50px;
+main h1 {
+    font-size: 30px;
 }
-.readme .title {
+main h2 {
+    font-size: 22px;
+}
+main h3 {
+    font-size: 14px;
+}
+main h1 {
+    color: #ef4d3f;
+    margin-top: 50px;
     text-align: center;
+}
+.cheatsheets {
+    font-family: monospace;
+}
+.twitter-tweet {
+    margin: 0 auto;
+}
+#disqus_thread {
+    padding: 20px;
 }
 
 /* ALIGN */
@@ -105,10 +123,12 @@ main .title {
 
 /* SHARE Buttons */
 .twitter-share-button {
-    padding-top: 10px;
+    margin-top: -5px;
 }
 .fb-share-button {
     padding-top: 10px;
+    left: 2px;
+    top: -10px;
 }
 
 /* RESPONSIVE THEME */
@@ -128,15 +148,14 @@ main .title {
     header .logo img {
         width: 15px;
     }
-    .twitter-share-button {
-        padding-top: 0;
-        margin-top: -5px;
+    main h1 {
+        font-size: 20px;
     }
-    .fb-share-button {
-        top: -10px;
+    main h2 {
+        font-size: 17px;
     }
-    h1, h2, h3 {
-        font-size: 1rem;
+    main h3 {
+        font-size: 14px;
     }
 }
 
