@@ -75,6 +75,12 @@ header .logo {
 header .logo img {
     width: 60px;
 }
+.image article {
+    flex-direction: column;
+}
+.image img {
+    max-height: 100%;
+}
 
 /* THEME */
 .code {
@@ -83,8 +89,12 @@ header .logo img {
 .active-menu {
     border-bottom-color: #ef4d3f;
 }
-.active-menu h3{
+.active-menu h3,
+main h1 {
     color: #ef4d3f;
+}
+main .title {
+    margin-top: 50px;
 }
 
 /* ALIGN */
