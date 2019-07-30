@@ -14,14 +14,14 @@
   <body class="works_on_smartphone">
 
     <header>
-      <a href="/#" class="logo active-menu">
+      <a href="/#" class="logo">
         <img
           src="static-logo-jacobo-isaza.png"
           alt="Jacobo"
         />
       </a>
       <ul>
-        <li>
+        <li class="active-menu">
           <a href="/cheatsheets.html#">
             <h3>Hello.</h3>
             Cheatsheets
@@ -66,30 +66,46 @@
     </header>
 
     <main>
-      <article class="readme">
-        <h1 class="title">
-          Static Site for Holberton School application process
-        </h1>
-
-        <h2>My Goal</h2>
-        <p>
-          I want to learn something new every day solving real problems with nice people and create good software.
-          <br>
-          Create software is less difficult when you meet the right mentor.
-        </p>
-
-        <h2>Why Holberton</h2>
-        <p>
-          Because it looks like they have a good education model that could work for me, instead of the ancient/obsolete university education models in my city (medellin - Colombia)
-        </p>
-
-        <h2>Contributions</h2>
-        <p>
-          My code for this application is open to all your recommendations.
-          <pre>
-            https://github.com/jacoboisaza/holbertonschool-apply
-          </pre>
-        </p>
+      <article class="code">
+        <h1 class="title">Some basic Cheatsheets</h1>
+        <h2>Linux</h2>
+        <ul>
+          <li>man command ::Manual</li>
+          <li>pwd ::PrintWorkingDir</li>
+          <li>ls -lahZ ::List LongAllHumanContext</li>
+          <li>cd ::ChangeDir</li>
+          <li>less file1 ::Print file content</li>
+          <li>touch tile2 ::ModifyFileTime or CreateFile</li>
+          <li>cp from to ::Copy</li>
+          <li>mv from to ::Move</li>
+          <li>mkdir dir1 ::MakeDir</li>
+          <li>rmdir dir2 ::RemoveEmptyDir</li>
+          <li>rm -r ::RemoveAllDirectoryContentsRecursively</li>
+        </ul>
+        <h2>HTML5</h2>
+        <ul>
+          <li>&lt;h1&gt; - &lt;h6&gt;	::Heading</li>
+          <li>&lt;p&gt;	::Paragraph</li>
+          <li>&lt;i&gt;	::Italic</li>
+          <li>&lt;b&gt;	::Bold</li>
+          <li>&lt;a&gt;	::Anchor</li>
+          <li>&lt;ul&gt; & &lt;li&gt;	::Unordered List & List Item</li>
+          <li>&lt;blockquote&gt;	::Blockquote</li>
+          <li>&lt;hr&gt;	::Horizontal Rule</li>
+          <li>&lt;img&gt;	::Image</li>
+          <li>&lt;div&gt;	::Division</li>
+        </ul>
+        <h2>Emacs</h2>
+        <ul>
+          <li>C-x C-s ::save a file back to disk</li>
+          <li>C-x C-c ::exit Emacs permanently</li>
+          <li>C-s ::search forward</li>
+          <li>C-r ::search backward</li>
+          <li>M-p ::select previous search string</li>
+          <li>M-n ::select next later search string</li>
+          <li>M-g g ::goto line</li>
+          <li>C-k ::Line killing</li>
+        </ul>
       </article>
       <aside>
         <div id="disqus_thread"></div>
