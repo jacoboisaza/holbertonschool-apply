@@ -144,3 +144,8 @@ main .title {
 .not-border {
     border: none;
 }
+.separator {
+    max-width:100px;
+    margin:30px auto 50px auto;
+    border-color: #ef4d3f;
+}
